@@ -1,6 +1,8 @@
 #ordenación de arreglo multidimensional
 #matriz bidimensional 3x3
+from operator import truediv, itruediv, index
 
+from semana_11.programa1 import arre_bi
 
 arre_bi =[
     [12,34,70], # índice 0
@@ -42,10 +44,3 @@ ordenar_fila(arre_bi, fila_ordenar)
 print("/n arre_bi con la fila ordenada")
 for fila in arre_bi:
     print(fila)
-
-
-
-
-
-
-
